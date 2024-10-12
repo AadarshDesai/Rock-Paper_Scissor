@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Seasor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <div class="container">
+            <h3>Rock Paper Scissor</h3>
+            <button class="btnSelect" id="rock"><img src="resources/fist.png" alt=""></button>
+            <button class="btnSelect" id="paper"><img src="resources/hand-paper.png" alt=""></button>
+            <button class="btnSelect" id="scissor"><img src="resources/scissor.png" alt=""></button>
+
+            <div class="score">
+                <div class="playerScore">
+                    <p class="playerCount">0</p>
+                    <p>Player</p>
+                </div>
+                <div class="compScore">
+                    <p class="compCount">0</p>
+                    <p>Computer</p>
+                </div>
+            </div>
+            <div class="showResult ifTrue ifTrue ifDraw">
+                <p>Start Game</p>
+            </div>
+            <div class="reset">
+                <button class="btnReset">Reset</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

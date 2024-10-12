@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(215, 211, 211);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.container{
+    margin: 0;
+    padding: 0;
+    padding-top: 3vh;
+    height: auto;
+    width: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: -7vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btnSelect{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border: 0;
+    margin : 5vh 2vh; 
+    margin-top: 10vh;
+    
+}
+.btnSelect img{
+    margin: 3vmin;
+    height: 15vmin;
+    width: 15vmin;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#rock{
+    background-color: #D4F4DD;
+    margin-left: 2vh;
+}
+#paper{
+    background-color: #17BEBB;
+}
+
+#scissor{
+    background-color: #0E7C7B;
+}
+
+.score {
+    margin-top: 2vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+
+}
+
+.playerScore{
+    width: 10vmin;
+    height: 6vmin;
+    padding-top: 5vh;
+    padding-bottom: 2vmin;
+    padding-right: 2vmin;
+    /* margin-left: -9vh; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.compScore{
+    width: 10vmin;
+    height: 6vmin;
+    padding-top: 5vh;
+    padding-bottom: 2vmin;
+    padding-right: 2vmin;
+    /* margin-left: 40vmin; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showResult{
+
+    padding: 1vmin;
+    width: fit-content;
+    border-radius: 1vh;
+    background-color: black;
+    color: white;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnReset{
+
+    height: 7vh;
+    width: 20vh;
+    margin-top: 8vh;
+    background-color: #D4F4DD;
+    border: 0;
+    border-radius: 1vh;
+    padding: 2vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ifDraw{
+    background-color: black;
+}
+.ifTrue{
+    background-color: Green;
+}
+.ifFalse{
+    background-color: red;
+}
